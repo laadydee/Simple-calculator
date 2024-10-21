@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.black{
+    margin:150px auto;
+    border: 1px solid #b5a6a6;
+    padding: 10px;
+    width: 400px;
+    border-radius: 40px;
+}
+.shape{
+    margin: 5px;
+    background-color: #dadce0;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.screen{
+    background-color: white;
+    /* height: 70px; */
+    text-align: end;
+    justify-content: center;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.all-arith{
+    padding: 10px;
+}
+.inp{
+    width: 100%;
+    text-align: end;
+    outline: none;
+    border: 0;
+    font-size: 2rem;
+    margin: 20px 0px;
+    border: none;
+}
+
+@media (max-width:767px) {
+    .black{
+        width: 100%;
+    }
+}
